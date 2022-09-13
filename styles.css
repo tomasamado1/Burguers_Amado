@@ -14,6 +14,7 @@
     display: flex;
     flex-direction:row;
     justify-content: center;
+    
 }
 .separador{
     display:inline;
@@ -27,8 +28,13 @@
     font-family: 'Aboreto', "cursive";
     margin-left: 50px;
     margin-top: 25px;
+    transition: all 1s;
+    
 }
 
+.separador:hover{
+    transform:scale(1.1)
+}
 
 
 body{

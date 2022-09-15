@@ -10,31 +10,26 @@
     margin-top: 75px;
     text-shadow: 0 0 2px black;
 }
-.nav{
-    display: flex;
-    flex-direction:row;
-    justify-content: center;
-    
+.buttonconfig{
+    background-color: #e6b325;
+    border-color: black;
+    transition: 2s all;
 }
-.separador{
-    display:inline;
+.navconfig{
+    background-color: #e6b325;
+    border: solid black;
     padding-right: 0.5em;
     padding-left: 0.5em;
-    border: solid black;
     align-items: center;
-   background-color:#61481C;
     color:#e6b325;
     font-size: 20px;
     font-family: 'Aboreto', "cursive";
-    margin-left: 50px;
-    margin-top: 25px;
-    transition: all 1s;
-    
+  transition: 2s all;
+
 }
 
-.separador:hover{
-    transform:scale(1.1)
-}
+.nav-item:hover{
+    transform:scale(1.1)}
 
 
 body{
@@ -110,28 +105,28 @@ table{
 
 .locales{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(2,1fr);
     color:#E6B325;
-    font-family: 'Aboreto', "cursive";
-    text-shadow: 0 0 2px black;
-    font-size: 20px;
-    justify-items: auto;
+    font-family: 'Aboreto', "cursive"
     }
 
-
-.local1img,.local2img,.local3img,.local4img,.local5img,.local6img{
-  display: ;
+.l1,.l2,.l3,.l4,.l5,.l6{
+ font-size: 2em;
 }
+
 
 .local1,.local2,.local3,.local4,.local5,.local6{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-shadow: 0 0 2px black;
+    color:#E6B325;
+    font-family: 'Aboreto', "cursive";
 }
 
 @media screen and (max-width: 576px) {
- 
+ .tituloprincipal{
+    font-size: 3em;
+ }
     body{
     background-image: url(https://www.cucinare.tv/wp-content/uploads/2021/04/burger.jpg);
     height: 500px;}

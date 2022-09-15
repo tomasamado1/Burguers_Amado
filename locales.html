@@ -5,48 +5,79 @@
     <meta http-equiv="X-UA-compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> HAMBURGUESERIA </title>
-    <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light fondonav">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon buttonconfig"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item navconfig">
+                <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item navconfig">
+                <a class="nav-link" href="locales.html">Locales</a>
+              </li>
+            </li>
+            <li class="nav-item navconfig">
+              <a class="nav-link" href="delivery.html">Delivery</a>
+            </li>
+        </li>
+        <li class="nav-item navconfig">
+          <a class="nav-link" href="cartaonline.html">Carta Online</a>
+        </li>
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
 
     <header >
         <h1 class="tituloprincipal">Nuestros locales</h1>
     </header>
 
-<section class="locales">
-<div class="local1">
+
+<section class="container">
+<div class="row">
+    <div class="local1 col-lg-4">
    <figure class="local1img"> <img  src="local.jpg"></figure>
-    <h2>Palermo</h2>
+    <h2 class="l1">Palermo</h2>
     <p>Honduras 2556</p>
 </div>
-<div class="local2">
+<div class="local2 col-lg-4">
     <figure class="local2img"><img  src="local.jpg"></figure>
-    <h3>Devoto</h3>
+    <h3 class="l2">Devoto</h3>
     <p>Honduras</p>
 </div>
-<div class="local3">
+<div class="local3 col-lg-4">
     <figure class="local3img"><img  src="local.jpg"></figure>
-    <h4>San Isidro</h4>
+    <h4 class="l3">San Isidro</h4>
     <p>Honduras 2556</p>
 </div>
-<div class="local4">
+<div class="local4 col-lg-4">
     <figure class="local4img"><img  src="local.jpg"></figure>
-    <h5>Olivos</h5>
+    <h5 class="l4">Olivos</h5>
     <p>Honduras 2556</p>
 </div>
-<div class="local5">
+<div class="local5 col-lg-4">
     <figure class="local5img"><img  src="local.jpg"></figure>
-    <h6>Mar del Plata</h6>
+    <h6 class="l5">Mar del Plata</h6>
     <p>Honduras 2556</p>
 </div>
-<div class="local6">
+<div class="local6 col-lg-4">
     <figure class="local6img"><img  src="local.jpg"></figure>
-    <h7>Palermo</h7>
+    <h7 class="l6">Palermo</h7>
     <p>Honduras 2556</p>
+</div>
 </div>
 
 </section>
@@ -54,5 +85,5 @@
 
 
 
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>

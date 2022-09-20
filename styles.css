@@ -66,11 +66,6 @@ padding-bottom: 10px;
     align-content: s;
 }
 
-.cervezas{
-    display: grid  ;
-    grid-template-columns: 1fr 1fr 1fr 1fr;  
-    
-}
 
 .video{
     margin-top: 40px;
@@ -111,6 +106,7 @@ table{
 
 .l1,.l2,.l3,.l4,.l5,.l6{
  font-size: 2em;
+ 
 }
 
 
@@ -123,9 +119,15 @@ table{
     font-family: 'Aboreto', "cursive";
 }
 
+.buttoncomollegar{
+    background-color: #E6B325;
+    margin-bottom: 20%;
+
+}
+
 @media screen and (max-width: 576px) {
  .tituloprincipal{
-    font-size: 3em;
+    font-size: 2.7em;
  }
     body{
     background-image: url(https://www.cucinare.tv/wp-content/uploads/2021/04/burger.jpg);
@@ -160,18 +162,24 @@ h2 {
     background-image: url(https://lahamburgueseria.com/images/restaurantes/cedritos.png);
     background-position: left 0cm;
 padding-bottom: 10px;
+font-size: 5px;
 }
-.cervezas{
-    display: grid  ;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr ;}
 
+.tituloreservas{
+    font-size: 40px;
+}
+
+.cerveza1img,.cerveza2img,.ceveza3img,.cerveza4img{
+    display: flex;
+    justify-content: center;
+}
 
 .video{
     display: grid;
     grid-column: auto 2px 
     ;}
 
+    
 }
 
     

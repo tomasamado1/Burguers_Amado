@@ -1,0 +1,20 @@
+.buttonconfig{
+    background-color: #e6b325;
+    border-color: black;
+    transition: 2s all;
+}
+.navconfig{
+    background-color: #e6b325;
+    border: solid black;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    align-items: center;
+    color:#e6b325;
+    font-size: 20px;
+    font-family: 'Aboreto', "cursive";
+  transition: 2s all;
+
+}
+
+.nav-item:hover{
+    transform:scale(1.1)}

@@ -1,0 +1,51 @@
+#reservas{ 
+    color:#E6B325;
+    font-family: 'Aboreto', "cursive";
+    text-align: center;
+    border: 2px solid #E6B325;
+    margin-top: 5px;
+    flex-direction: column;
+    background-image: url(https://lahamburgueseria.com/images/restaurantes/cedritos.png);
+padding-bottom: 10px;
+}
+
+.tituloreservas{
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-size: 70px;
+   text-shadow: 0 0 2px black;
+}
+
+.calendario{
+    display: flex;  
+    justify-content: center;
+    padding-top: 5px;
+    align-content: s;
+}
+
+.video{
+    margin-top: 40px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+padding-bottom: 56.25%; /* 16/9 ratio */
+padding-top: 30px; /* IE6 workaround*/
+height: 0;
+overflow: hidden;
+}
+
+table{
+    background-color: #61481C;
+    color: #e6b325;
+    border-color: black;
+    border-style: inset;
+    font-family: 'Aboreto', "cursive";
+    margin: 100px auto;
+    text-align: center;
+    
+}
+
+.footer{
+    color:#E6B325
+}

@@ -1,7 +1,7 @@
 .tituloprincipal{
     display: flex;
     justify-content: center;
-    color:#E6B325;
+    color: map-get($map: $colours, $key: colorletras );
     font-family: 'Aboreto', "cursive";
     font-size: 75px;
     text-align: center;

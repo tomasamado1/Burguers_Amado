@@ -22,3 +22,15 @@
     font-family: 'Aboreto', "cursive";
     font-size: 20px;
 }
+
+@media screen and (max-width: 576px){
+
+.birras{
+    width: auto;
+}
+
+.birra1,.birra2,.birra3,.birra5,.birra6,.birra7,.birra8{
+    margin-bottom: 15px;
+}
+
+}

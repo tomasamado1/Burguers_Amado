@@ -11,3 +11,14 @@
     font-family: 'Aboreto', "cursive";
     text-align: center;
 }
+
+@media screen and (max-width: 576px){
+
+.tarjetas{
+    display: flex;
+   justify-content: center;
+   margin-top: 40px;
+}
+
+
+}

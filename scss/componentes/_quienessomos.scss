@@ -20,3 +20,39 @@ text-align: center;
 font-size: 15px;
 background-color: #A47E3B;
 }
+
+.opiniontitulo{
+    padding-top: 20%;
+    color:#E6B325;
+    font-size: 40px;
+    font-family: 'Aboreto', "cursive";
+    padding-bottom: 50px;
+    justify-content: center;
+    display: flex;
+  }
+
+
+.formulario1,.formulario2{ 
+    color:#E6B325;
+    font-family: 'Aboreto', "cursive";
+    text-align: center;
+    display: grid;
+    align-items: center;
+}
+
+.texto1,.texto2{
+    background-color: #E6B325;
+    border-color: #A47E3B;
+}
+
+
+@media screen and (max-width:576px){
+
+.caja1{
+    margin-top: 30px;
+    
+}
+.nosotrostitulo{
+    padding-bottom: 10px;
+}
+}

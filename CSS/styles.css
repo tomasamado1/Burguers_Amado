@@ -54,18 +54,26 @@ body {
   display: flex;
   justify-content: center;
   position: relative;
-  padding-bottom: 56.25%; /* 16/9 ratio */
+  padding-bottom: 20%; /* 16/9 ratio */
   padding-top: 30px; /* IE6 workaround*/
   height: 0;
   overflow: hidden;
 }
 
-table {
-  background-color: #E6B325;
-  border-color: black;
-  border-style: inset;
+.textoindex {
+  color: #61481C;
   font-family: "Aboreto", "cursive";
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  padding-left: 90px;
+  padding-right: 90px;
+  display: flex;
+  border: black 1px solid;
   text-align: center;
+  background: rgb(230, 179, 0);
+  background: linear-gradient(90deg, rgb(230, 179, 0) 0%, rgb(206, 162, 41) 8%, rgb(202, 159, 49) 59%, rgb(191, 151, 66) 80%);
 }
 
 .footer {
@@ -76,6 +84,10 @@ table {
   text-shadow: 0 0 2px black;
   font-family: "Aboreto", "cursive";
   color: #e6b325;
+}
+
+.l1, .l2, .l3, .l4, .l5, .l6 {
+  font-size: 25px;
 }
 
 .buttoncomollegar {
@@ -141,6 +153,14 @@ table {
   font-size: 20px;
 }
 
+@media screen and (max-width: 576px) {
+  .birras {
+    width: auto;
+  }
+  .birra1, .birra2, .birra3, .birra5, .birra6, .birra7, .birra8 {
+    margin-bottom: 15px;
+  }
+}
 .quienessomosbody {
   background-image: url(https://static.wixstatic.com/media/3d96c6_555ad3beabcd43e7a35740226ad9f4a5~mv2.jpg/v1/fill/w_1341,h_586,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/3d96c6_555ad3beabcd43e7a35740226ad9f4a5~mv2.jpg);
   transition: background-color 1s linear;
@@ -166,6 +186,37 @@ table {
   background-color: #A47E3B;
 }
 
+.opiniontitulo {
+  padding-top: 20%;
+  color: #E6B325;
+  font-size: 40px;
+  font-family: "Aboreto", "cursive";
+  padding-bottom: 50px;
+  justify-content: center;
+  display: flex;
+}
+
+.formulario1, .formulario2 {
+  color: #E6B325;
+  font-family: "Aboreto", "cursive";
+  text-align: center;
+  display: grid;
+  align-items: center;
+}
+
+.texto1, .texto2 {
+  background-color: #E6B325;
+  border-color: #A47E3B;
+}
+
+@media screen and (max-width: 576px) {
+  .caja1 {
+    margin-top: 30px;
+  }
+  .nosotrostitulo {
+    padding-bottom: 10px;
+  }
+}
 .burgas {
   background-color: #e6b325;
   color: #61481C;
@@ -179,6 +230,13 @@ table {
   text-align: center;
 }
 
+@media screen and (max-width: 576px) {
+  .tarjetas {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+}
 @media screen and (max-width: 576px) {
   .tituloprincipal {
     font-size: 2.7em;
